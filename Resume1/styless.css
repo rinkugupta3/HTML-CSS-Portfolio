@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #092a68;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #121e53;
+    color: white;
+    position: relative; /* Allows positioning the image inside the header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    display: flex; /* Allows the image to appear beside the text */
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.header-image {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 140px; /* Set the size of the image */
+    height: 140px; /* Set the size of the image */
+    border-radius: 50%; /* Makes the image circular */
+    z-index: 10; /* Ensures the image stays on top */
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+a[href^="mailto:dhirajgupta@hotmail.com"] {
+    color: white; /* Change the color of the email link */
+    text-decoration: none; /* Optional: To remove the underline */
+  }
+  
+  a[href^="mailto:dhirajgupta@hotmail.com"]:hover {
+    color: #ccc; /* Optional: Change color on hover */
+  }
+  
+
+/* Navigation Menu Styles */
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #384ca8;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #092a68;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section {
+    margin: 10px 0; /* Add space around the sections - reduce margin */
+}
+
+section h2, section h3, section h4, section h5, section h6 {
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    border-bottom: 2px solid #333;
+}
+
+/* Projects Section */
+#Projects ul {
+    padding-left: 20px;
+    /*list-style-type: square; */
+    list-style-type: disc; /* Change the list style to disc */
+}
+
+#Projects li {
+    margin-bottom: 5px;
+}
+
+#Projects a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#Projects a:hover {
+    text-decoration: underline;
+}
+
+/* Software QA Skills Section */
+#Software-QA-Skills ul {
+    columns: 6; /* Adjusts the list into 5 columns */
+    column-gap: 20px;
+    list-style-type: square;
+}
+
+#Software-QA-Skills li {
+    margin-bottom: 5px;
+    font-size: 0.9em; /* Smaller font size */
+    font-family: 'Arial', sans-serif; /* Different font family */
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding: 10px;
+    background-color: #384ca8;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-link {
+    font-size: 1.2em; /* Make the text larger */
+    color: #ffcc00; /* Change the text color to yellow */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-link:hover {
+    color: #ffaa00; /* Slightly darken the text color on hover */
+}
