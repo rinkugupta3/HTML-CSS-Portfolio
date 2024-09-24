@@ -109,17 +109,29 @@ section h2, section h3, section h4, section h5, section h6 {
     text-decoration: underline;
 }
 
-/* Software QA Skills Section */
+/* Software-QA-Skills Section */
 #Software-QA-Skills ul {
     columns: 6; /* Adjusts the list into 5 columns */
     column-gap: 20px;
     list-style-type: square;
 }
-
 #Software-QA-Skills li {
-    margin-bottom: 5px;
+    margin-bottom: 0.5px; /* Adds space between list items */
     font-size: 0.9em; /* Smaller font size */
     font-family: 'Arial', sans-serif; /* Different font family */
+}
+
+/* Experience Section */
+#Experience p {
+    margin-bottom: 0; /* Removes space below the paragraph */
+}
+#Experience ul {
+    margin-top: 0; /* Removes the default margin */
+    list-style-type: disc; /* Keeps the default disc style */
+}
+#Experience li {
+    font-size: 0.9em; /* Sets the font size to 0.9em to match Software QA Skills */
+    font-family: 'Arial', sans-serif; /* Ensures consistent font */
 }
 
 /* Footer */
